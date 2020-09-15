@@ -39,5 +39,6 @@ FastLED V: (V\*256)/100
 
 ## References
 If you want a **QMK version of this project**, check out this link: https://www.reddit.com/r/MechanicalKeyboards/comments/7oiv5o/guide_how_to_make_a_big_switch_lamp/
+
 That was my inspiration, and that person used QMK so you don't have to use Arduino compatible ATmega32U4 boards.  Hint hint, use an Elite C.
 
