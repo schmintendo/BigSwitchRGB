@@ -4,7 +4,7 @@
 ## Getting Started
 What you'll need to get started is a Pro Micro/Elite C/any Arduino, some RGBs, and a switch (and some wire!).  Here's what I got:
 
-1. [Elite-C V4](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) (you'd have to flash the bootloader of this, maybe just use a Pro Micro)
+1. [SparkFun Qwiic Pro Micro - USB-C](https://www.amazon.com/gp/product/B084KPT7MH/)
 2. [Neopixel/Neopixel Clone RGBs](https://www.amazon.com/gp/product/B0105VMWRM/) - You can get a bunch of different kinds of these!  These are just the ones I picked.
 3. [NovelKeys Big Switch](https://novelkeys.xyz/products/the-big-switch-series) - Obviously you can use any switch, or button, but these were the inspiration for this project.
 
@@ -37,4 +37,7 @@ FastLED S: (S\*256)/100
 
 FastLED V: (V\*256)/100
 
+## References
+If you want a **QMK version of this project**, check out this link: https://www.reddit.com/r/MechanicalKeyboards/comments/7oiv5o/guide_how_to_make_a_big_switch_lamp/
+That was my inspiration, and that person used QMK so you don't have to use Arduino compatible ATmega32U4 boards.  Hint hint, use an Elite C.
 
