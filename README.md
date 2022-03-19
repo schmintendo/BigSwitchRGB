@@ -20,7 +20,7 @@ Now that you have your Pro Micro setup, make sure you can see it on your compute
 
 While most of the code is explained in the file itself, I'll go over the general reasoning for why I did what I did.
 
-My code basically swaps between modes when I press a button, since I wanted a few different colors for my LEDs - RGB cycling, Solid Pink, and Solid "old lightbulb" (2700K color temperature light).  I used the FastLED library to control the LEDs, and the Bounce2 library to add debounce, and everyone online seemed to suggest it when using buttons.
+My code basically swaps between modes when I press a button, since I wanted a few different colors for my LEDs - RGB cycling, Solid Pink, and "off" (Black).  I used the FastLED library to control the LEDs, and the Bounce2 library to add debounce, and everyone online seemed to suggest it when using buttons.
 
 For the color cycling, I stole the code from somewhere, but it's pretty self explanatory, the H part of the HSV infinitely increments over time, resulting in smooth color changing of the LEDs. 
 
