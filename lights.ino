@@ -54,7 +54,7 @@ void loop() {
             fill_solid(leds, NUM_LEDS, CHSV(255, 130, 255)); //pink led to match my setup
             break;
           case 2:
-            fill_solid(leds, NUM_LEDS, CHSV(30, 220, 255)); //my attempt at making a 2700K "warm white" color temperature
+            fill_solid(leds, NUM_LEDS, CRGB::Black); //turn off the light
             break;
         }
         countPrinted = count;
